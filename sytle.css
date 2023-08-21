@@ -32,3 +32,7 @@ p {
 article p {
   color: lightslategrey;
 }
+
+.git-article {
+  background-color: rgb(142, 221, 247);
+}
