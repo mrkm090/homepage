@@ -1,4 +1,3 @@
-alert('Hello my friend!');
 console.log('Good Day');
 
 const first_name = 'Marek';
