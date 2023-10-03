@@ -1,0 +1,75 @@
+h1 {
+  color: rgb(58, 106, 164)
+}
+
+body {
+  background-color: rgb(15, 227, 206);
+}
+
+.navigation {
+  background-color: #8feaf1;
+  padding: 10px;
+}
+
+.navigation__link {
+  color: #606666;
+  margin-right: 15px;
+}
+
+.section {
+  background-color: #8feaf1;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.section__header {
+  color: #606666;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.section__images {
+  width: 100%;
+  height: auto;
+}
+
+.article {
+  background-color: #87dbe1;
+  padding: 5px;
+}
+
+.article__header {
+  color: #4a6666;
+}
+
+.article__paragraph {
+  color: #606666;
+}
+
+.article__header--git {
+  background-color: rgb(117, 207, 222);
+}
+
+.article--git {
+  background-color: rgb(142, 221, 247);
+}
+
+.footer {
+  color: aqua;
+  font-size: small;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  margin: 10px;
+}
+
+.footer__paragraph {
+  position: relative;
+}
+
+.footer__link {
+  color: #fff;
+  position: absolute;
+  right: 0;
+}
+
+.red-text {
+  color: darkred;
+}
