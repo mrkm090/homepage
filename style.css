@@ -1,3 +1,17 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+* {
+  margin: 0;
+}
+
 h1 {
   color: rgb(58, 106, 164)
 }
@@ -27,9 +41,11 @@ body {
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-.section__images {
-  width: 100%;
+.section__image {
+  display: block;
+  max-width: 500px;
   height: auto;
+  margin: 10px auto;
 }
 
 .article {
@@ -39,10 +55,12 @@ body {
 
 .article__header {
   color: #4a6666;
+  margin: 0;
 }
 
 .article__paragraph {
   color: #606666;
+  margin: 0;
 }
 
 .article__header--git {
@@ -50,6 +68,8 @@ body {
 }
 
 .article--git {
+  width: 500px;
+  margin: 10px auto;
   background-color: rgb(142, 221, 247);
 }
 
